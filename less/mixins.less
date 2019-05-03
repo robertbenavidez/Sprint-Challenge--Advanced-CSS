@@ -13,3 +13,20 @@
     padding-bottom: 10px;
 
 }
+
+.button-creator(@width, @height) {
+    border-radius: 5px;
+    width: @width;
+    height: @height;
+    background-color: @btn-bg-color;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+
+    &:hover {
+        background-color: white;
+        color: @btn-bg-color;
+    }
+}
